@@ -18,7 +18,7 @@ h1 {
 form {
   width: 700px;
   margin: auto;
-  margin-top: 150px;
+  margin-top: 100px;
   background: #fff;
   padding: 20px;
   display: flex;
@@ -89,6 +89,7 @@ button:hover {
   form {
     display: block;
     width: 300px;
+    margin: 10px;
   }
   img {
     width: 50%;
