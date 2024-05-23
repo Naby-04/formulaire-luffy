@@ -89,7 +89,8 @@ button:hover {
   form {
     display: block;
     width: 300px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
   img {
     width: 50%;
