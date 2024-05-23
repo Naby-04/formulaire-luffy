@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: sans-serif;
+  border: none;
+}
+body {
+  background: url(luffycity.jpeg) no-repeat center;
+  background-size: cover;
+}
+h1 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+form {
+  width: 700px;
+  margin: auto;
+  margin-top: 150px;
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* disign des inputs et du select */
+
+input {
+  padding: 10px;
+  border-bottom: 1px solid #000;
+}
+.unique input {
+  display: block;
+  width: 350px;
+  margin-bottom: 10px;
+}
+select {
+  border-bottom: 1px solid;
+  width: 370px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+input::placeholder {
+  color: #000;
+}
+.input-box {
+  display: flex;
+}
+span {
+  position: relative;
+  top: 5px;
+  right: 25px;
+}
+
+/* design right side */
+
+.right-side {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* premier pair de input */
+
+.first-pair input {
+  width: 151px;
+  margin-right: 20px;
+}
+
+/* ajustons l'image */
+
+img {
+  width: 250px;
+}
+button {
+  padding: 15px;
+  width: 150px;
+  margin-left: 120px;
+  background: linear-gradient(#0370a1, #38c5f8);
+}
+button:hover {
+  background: linear-gradient(#0370a1, #7dd8fc);
+}
+@media screen and (max-width: 900px) {
+  form {
+    display: block;
+    width: 300px;
+  }
+  img {
+    width: 50%;
+  }
+  input {
+    padding: 20px;
+    border-bottom: 1px solid #000;
+  }
+  input::placeholder {
+    color: #000;
+    font-size: 12px;
+  }
+  select {
+    padding: 20px;
+    width: 230px;
+    font-size: 12px;
+  }
+  .first-pair input {
+    width: 190px;
+    font-size: 12px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+  }
+  .unique input {
+    width: 250px;
+  }
+  span {
+    position: relative;
+    top: 15px;
+  }
+  button {
+    margin-left: 50px;
+    padding: 10px;
+  }
+  img {
+    width: 300px;
+  }
+}
