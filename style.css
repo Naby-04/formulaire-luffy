@@ -16,9 +16,9 @@ h1 {
   text-align: center;
 }
 form {
-  width: 700px;
+  width: 900px;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 150px;
   background: #fff;
   padding: 20px;
   display: flex;
@@ -32,9 +32,17 @@ input {
   padding: 10px;
   border-bottom: 1px solid #000;
 }
+.unique {
+  /* background: #000; */
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .unique input {
   display: block;
   width: 350px;
+  padding: 15px;
   margin-bottom: 10px;
 }
 select {
@@ -42,6 +50,7 @@ select {
   width: 370px;
   padding: 10px;
   margin-bottom: 10px;
+  margin-left: 20px;
 }
 input::placeholder {
   color: #000;
@@ -74,7 +83,7 @@ span {
 /* ajustons l'image */
 
 img {
-  width: 250px;
+  width: 50%;
 }
 button {
   padding: 15px;
@@ -89,8 +98,8 @@ button:hover {
   form {
     display: block;
     width: 300px;
-    margin-top: 10px;
     margin-bottom: 10px;
+    margin-top: 10px;
   }
   img {
     width: 50%;
@@ -107,6 +116,7 @@ button:hover {
     padding: 20px;
     width: 240px;
     font-size: 12px;
+    margin: 0;
   }
   .first-pair input {
     width: 190px;
